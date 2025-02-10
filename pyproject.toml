@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "MAPIE-Upskilling-Day"
+version = "0.1.0"
+description = ""
+authors = ["Valentin Laurent <valentin.laurent@capgemini.com>", "Grégoire Martinon <gregoire.martinon@capgemini.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mapie = "v1.0.0a1"
+pandas = "^2.2.3"
+plotly = "^6.0.0"
+folium = "^0.19.4"
+notebook = "^7.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
