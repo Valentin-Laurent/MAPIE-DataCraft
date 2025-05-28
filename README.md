@@ -3,7 +3,7 @@
 ## Setup
 
  - Create a virtual environment using Python 3.10
- - Install dependencies via: `pip install -r requirements.txt` or `poetry install`
+ - Install dependencies via: `pip install -r requirements.txt` or `uv pip install`
 
 ## Program
 
