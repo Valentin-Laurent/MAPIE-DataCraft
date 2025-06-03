@@ -1,18 +1,19 @@
-[tool.poetry]
-name = "MAPIE-Upskilling-Day"
+[project]
+name = "mapie-datacraft"
 version = "0.1.0"
 description = ""
-authors = ["Valentin Laurent <valentin.laurent@capgemini.com>", "Grégoire Martinon <gregoire.martinon@capgemini.com>"]
+authors = [
+    {name="Valentin Laurent", email="valentin.laurent@capgemini.com"},
+    {name="Grégoire Martinon", email="gregoire.martinon@capgemini.com"},
+    {name="Faustin Pulvéric", email="faustin.pulveric@capgemini.com"},
+]
 readme = "README.md"
 
-[tool.poetry.dependencies]
-python = "^3.10"
-mapie = "v1.0.0a1"
-pandas = "^2.2.3"
-plotly = "^6.0.0"
-folium = "^0.19.4"
-notebook = "^7.3.2"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.10"
+dependencies = [
+    "folium>=0.19.6",
+    "mapie>=1.0.1",
+    "notebook>=7.4.3",
+    "pandas>=2.2.3",
+    "plotly>=6.1.2",
+]
