@@ -1,12 +1,11 @@
 # MAPIE-DataCraft
 
-## Setup
+Welcome to the MAPIE-DataCraft repository! This repository contains two hands-on notebooks designed to help you understand and apply MAPIE for regression tasks. Each notebook can be opened in Google Colab, where all necessary instructions are provided.
 
- - Create a virtual environment using Python 3.10
- - Install dependencies via: `pip install -r requirements.txt` or `uv pip install`
+Please find the links to the notebooks below:
 
-## Program
+- Tutorial for regression with MAPIE (~ 30 minutes): [Open Regression Tuturial in Colab](https://colab.research.google.com/github/Valentin-Laurent/MAPIE-DataCraft/blob/main/notebooks/regression-tutorial.ipynb)
 
-1. Presentation of MAPIE
-2. First hands-on with MAPIE (30 minutes): follow the instructions in `notebooks/regression_tutorial.ipynb`
-3. Use case (1 hour): follow the instructions in `notebooks/regression_use_case.ipynb`
+- Regression use case with MAPIE (~ 1 hour): [Open Regression Use Case in Colab](https://colab.research.google.com/github/Valentin-Laurent/MAPIE-DataCraft/blob/main/notebooks/regression-use-case.ipynb)
+
+Happy learning!
